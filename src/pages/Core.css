@@ -1,0 +1,9 @@
+.notes {
+   background: #333;
+   height: 100vh;
+   color: white;
+}
+
+.notes-Header {
+   align-items: baseline;
+}
