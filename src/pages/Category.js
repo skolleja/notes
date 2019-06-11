@@ -8,7 +8,7 @@ class Category extends React.Component {
    render() {
       var content = (
          <div>
-            <NoteList name={this.props.match.params.name} items={['1', '2']}/>
+            <NoteList name={this.props.match.params.name} items={['1', '3']}/>
          </div>
       );
       return (<Core content={content}/>);
