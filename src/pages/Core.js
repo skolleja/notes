@@ -13,11 +13,11 @@ class Core extends React.Component {
                     variant="dark"
                     className="notes-Header">
                <Link to="/"><Navbar.Brand href="#home"> Notes </Navbar.Brand></Link>
-               <Nav className="mr-auto">
-                  <Link to="/category/personal"><Nav.Link href="#personal"> Personal </Nav.Link></Link>
+               <Navbar className="mr-auto" >
+                  <Link to="/category/personal"><Nav.Link href="#personal"> Personal</Nav.Link></Link>
                   <Link to="/category/work"><Nav.Link href="#work"> Work </Nav.Link></Link>
                   <Link to="/category/archive"><Nav.Link href="#archive"> Archive </Nav.Link></Link>
-               </Nav>
+               </Navbar>
             </Navbar>
             {this.props.content}
          </div>

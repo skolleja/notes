@@ -8,8 +8,14 @@ class NoteList extends React.Component {
       var list = this.props.items.map((elem) => <NoteCard item={elem}/>);
       return (
          <div>
-            <h1>{this.props.name}</h1>
-            {list}
+         <div className='cards2'>
+     
+            <h1 className='name'>{this.props.name}<div className='createNew'>+Add</div></h1>
+            <div className='localCards' >
+                  {list} 
+               </div>
+    
+         </div>
          </div>
       );
    }
