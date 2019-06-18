@@ -10,6 +10,8 @@ class Edit extends React.Component {
 
     this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
+    this.getInfo = this.getInfo.bind(this);
+    this.handleSave = this.handleSave.bind(this);
 
     this.state = {
       show: false,
