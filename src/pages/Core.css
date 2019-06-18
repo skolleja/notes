@@ -1,9 +1,69 @@
 .notes {
+ 
    background: #333;
    height: 100vh;
    color: white;
 }
 
 .notes-Header {
-   align-items: baseline;
+   align-items:baseline;
+  
+
+}
+
+.cards {
+   width: 103px;
+   margin: 8px;
+   background: rgb(255, 255, 255);
+   color: black;
+   width: 200px;
+
+}
+.cards2 {
+   display: block;
+   
+   flex-flow: row wrap;
+   background: #333;
+ 
+}
+
+
+
+.button {
+   background: rgba(192, 192, 192, 0.644);
+   color: black;
+   text-align: center;
+
+}
+
+.localCards {
+   display: flex;
+   flex-flow: row wrap;
+   background: #333;
+   margin-left:30px;
+  
+}
+
+.name {
+   display: flex;
+   background: #333;
+   
+}
+
+.createNew {
+   margin-left: 5px;
+   border: 1px solid black;
+   cursor: pointer;
+   background: rgba(192, 192, 192, 0.644);
+   color: black;
+ 
+ 
+ 
+}
+.cards:hover{
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+   border: 2px solid black;
+   cursor:pointer;
 }
